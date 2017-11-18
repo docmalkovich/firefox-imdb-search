@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "IMDb Search Selection",
+    "description": "Add a context menu option to search the selected text in IMDb (Internet Movie Database)",
+    "version": "1.0",
+    "homepage_url": "https://github.com/docmalkovich/firefox-imdb-search",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "activeTab",
+		"menus"
+    ],
+	
+  "icons": {
+    "48": "icons/icons8-imdb-48.png",
+	"32": "icons/icons8-imdb-32.png",
+	"16": "icons/icons8-imdb-16.png"
+  }	
+}
